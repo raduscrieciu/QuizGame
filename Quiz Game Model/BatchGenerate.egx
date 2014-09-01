@@ -1,0 +1,289 @@
+operation getSourceFilePath() : String{
+	
+	return "../"+QuizGame.all.first().androidProjectName+"/src/"+QuizGame.all.first().packageName.replace("\\.","\\/");
+}
+
+operation getProjectRootFilePath() : String{
+	
+	return "../"+QuizGame.all.first().androidProjectName;
+}
+
+rule ModelData2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/content/GenerateContent.egl"
+  
+  target : getSourceFilePath()+"/content/ModelData.java"
+}
+
+rule AchievementsActivity2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateAchievementsActivity.egl"
+  
+  target :  getSourceFilePath()+"/AchievementsActivity.java"
+}
+
+rule AchievementsListViewAdaptor2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateAchievementsListViewAdaptor.egl"
+  
+  target :  getSourceFilePath()+"/AchievementsListViewAdaptor.java"
+}
+
+rule AchievementView2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateAchievementView.egl"
+  
+  target :  getSourceFilePath()+"/AchievementView.java"
+}
+
+rule ChoicesActivity2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateChoicesActivity.egl"
+  
+  target :  getSourceFilePath()+"/ChoicesActivity.java"
+}
+
+rule HangmanActivity2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateHangmanActivity.egl"
+  
+  target :  getSourceFilePath()+"/HangmanActivity.java"
+}
+
+rule HintActivity2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateHintActivity.egl"
+  
+  target :  getSourceFilePath()+"/HintActivity.java"
+}
+
+rule MainActivity2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateMainActivity.egl"
+  
+  target :  getSourceFilePath()+"/MainActivity.java"
+}
+
+rule MapActivity2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateMapActivity.egl"
+  
+  target :  getSourceFilePath()+"/MapActivity.java"
+}
+
+rule MapView2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateMapView.egl"
+  
+  target :  getSourceFilePath()+"/MapView.java"
+}
+
+rule UserSettingsActivity2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateUserSettingsActivity.egl"
+  
+  target :  getSourceFilePath()+"/UserSettingsActivity.java"
+}
+
+rule WelcomeActivity2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateWelcomeActivity.egl"
+  
+  target :  getSourceFilePath()+"/WelcomeActivity.java"
+}
+
+rule ZoomOutPageTransformer2Android
+  transform library : QuizGame {
+  
+  template : "generators/src/GenerateZoomOutPageTransformer.egl"
+  
+  target :  getSourceFilePath()+"/ZoomOutPageTransformer.java"
+}
+	
+rule Background2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/drawable/GenerateBackground.egl"
+  
+  target : "../QuizGame/res/drawable/background.xml"
+}
+
+rule Button2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/drawable/GenerateButton.egl"
+  
+  target : "../QuizGame/res/drawable/button.xml"
+}
+
+rule ButtonGreen2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/drawable/GenerateButtonGreen.egl"
+  
+  target : "../QuizGame/res/drawable/button_green.xml"
+}
+
+rule Label2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/drawable/GenerateLabel.egl"
+  
+  target : "../QuizGame/res/drawable/label.xml"
+}
+
+rule AchievementDialog2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateAchievementDialog.egl"
+  
+  target : "../QuizGame/res/layout/achievement_dialog.xml"
+}
+
+rule AchievementsListItem2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateAchievementsListItem.egl"
+  
+  target : "../QuizGame/res/layout/achievements_list_item.xml"
+}
+
+rule ActivityAchievements2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateActivityAchievements.egl"
+  
+  target : "../QuizGame/res/layout/activity_achievements.xml"
+}
+
+rule ActivityChoices2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateActivityChoices.egl"
+  
+  target : "../QuizGame/res/layout/activity_choices.xml"
+}
+
+rule ActivityHangman2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateActivityHangman.egl"
+  
+  target : "../QuizGame/res/layout/activity_hangman.xml"
+}
+
+rule ActivityHint2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateActivityHint.egl"
+  
+  target : "../QuizGame/res/layout/activity_hint.xml"
+}
+
+rule ActivityMain2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateActivityMain.egl"
+  
+  target : "../QuizGame/res/layout/activity_main.xml"
+}
+
+rule ActivityMap2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateActivityMap.egl"
+  
+  target : "../QuizGame/res/layout/activity_map.xml"
+}
+
+rule ActivityWelcome2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateActivityWelcome.egl"
+  
+  target : "../QuizGame/res/layout/activity_welcome.xml"
+}
+
+rule FragmentLevels2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateFragmentLevels.egl"
+  
+  target : "../QuizGame/res/layout/fragment_levels.xml"
+}
+
+rule Settings2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout/GenerateSettings.egl"
+  
+  target : "../QuizGame/res/layout/settings.xml"
+}
+
+rule ActivityChoicesLandscape2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout-land/GenerateActivityChoices.egl"
+  
+  target : "../QuizGame/res/layout-land/activity_choices.xml"
+}
+
+rule ActivityHangmanLandscape2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout-land/GenerateActivityHangman.egl"
+  
+  target : "../QuizGame/res/layout-land/activity_hangman.xml"
+}
+
+rule ActivityMapLandscape2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/layout-land/GenerateActivityMap.egl"
+  
+  target : "../QuizGame/res/layout-land/activity_map.xml"
+}
+
+rule Menu2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/menu/GenerateMenu.egl"
+  
+  target : "../QuizGame/res/menu/menu.xml"
+}
+
+rule Strings2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/values/GenerateStrings.egl"
+  
+  target : "../QuizGame/res/values/strings.xml"
+}
+
+rule Styles2Android
+  transform library : QuizGame {
+  
+  template : "generators/res/values/GenerateStyles.egl"
+  
+  target : getProjectRootFilePath()+"/res/values/styles.xml"
+}
+
+rule Manifest2Android
+  transform library : QuizGame {
+  
+  template : "generators/GenerateManifest.egl"
+  
+  target : getProjectRootFilePath()+"/AndroidManifest.xml"
+}

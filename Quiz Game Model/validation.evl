@@ -1,0 +1,143 @@
+context QuizGame {
+
+	constraint mustHaveName{
+		check: QuizGame.all.forAll(r | r.applicationName.isDefined())
+		
+		message: "Application must have a name."
+	}
+}
+
+context Level {
+	
+	constraint uniqueLevelNames{
+		check: Level.all.forAll(n | n == self or n.name <> self.name)
+		
+		message: "Game cannot contain duplicate level names."
+	}
+	
+	constraint mustHaveName{
+		check: Level.all.forAll(r | r.name.isDefined())
+		
+		message: "Level must have a name."
+	}
+}
+
+context Question {
+	
+	constraint uniqueQuestions {
+		check: Question.all.forAll(n | n == self or n.questionText <> self.questionText)
+		
+		message: "Game cannot contain duplicate questions."
+	}
+
+	constraint mustHaveName{
+		check: Question.all.forAll(r | r.questionText.isDefined())
+		
+		message: "Cannot have empty questions"
+	}
+}
+
+context MultipleChoiceQuestion {
+	
+	constraint mustHaveCorrectAnswer{
+		check: MultipleChoiceQuestion.all.forAll(r | r.correctAnswer.isDefined())
+		
+		message: "Multiple Choice Question must have a correct answer."
+	}
+	
+	constraint mustHaveWrongAnswer1{
+		check: MultipleChoiceQuestion.all.forAll(r | r.wrongAnswer1.isDefined())
+		
+		message: "Multiple Choice Question must have a wrong answer."
+	}
+	
+	constraint mustHaveWrongAnswer2{
+		check: MultipleChoiceQuestion.all.forAll(r | r.wrongAnswer2.isDefined())
+		
+		message: "Multiple Choice Question must have a wrong answer."
+	}
+}
+	
+context MapQuestion {
+	
+	constraint mustHaveX{
+		check: MapQuestion.all.forAll(r | r.x.isDefined())
+		
+		message: "Map Question must have the X coordinate defined."
+	}
+	
+	constraint mustHaveY{
+		check: MapQuestion.all.forAll(r | r.y.isDefined())
+		
+		message: "Map Question must have the Y coordinate defined."
+	}
+	
+	constraint mustHaveValidX{
+		check: MapQuestion.all.forAll(r | (r.x>=0 and r.x<=100))
+		
+		message: "Map Question must have the X coordinate bteween 0 and 100."
+	}
+	
+	constraint mustHaveValidY{
+		check: MapQuestion.all.forAll(r | (r.y>=0 and r.y<=100))
+		
+		message: "Map Question must have the Y coordinate bteween 0 and 100."
+	}
+	
+	constraint mustHaveMapImageFileName{
+		check: MapQuestion.all.forAll(r | r.mapImageFileName.isDefined())
+		
+		message: "Map Question must have the map image file name defined."
+	}
+	
+	constraint acceptedMapImageFileName{
+		check: MapQuestion.all.forAll(r | r.mapImageFileName.matches("^[a-z0-9_]*$"))
+		
+		message: "Map Question map image file name must contain only [a-z0-9_]."
+	}
+}
+
+context HangmanQuestion {
+	
+	constraint mustHaveCorrectAnswer{
+		check: HangmanQuestion.all.forAll(r | r.correctAnswer.isDefined())
+		
+		message: "Hangman Question must have a correct answer defined."
+	}
+}
+
+context Achievement {
+
+	constraint mustHaveName{
+		check: Achievement.all.forAll(r | r.name.isDefined())
+		
+		message: "Achievement must have a name defined."
+	}
+	
+	constraint mustHaveDescription{
+		check: Achievement.all.forAll(r | r.description.isDefined())
+		
+		message: "Achievement must have a description defined."
+	}
+	
+	constraint mustHaveRewardFileName{
+		check: Achievement.all.forAll(r | r.rewardFileName.isDefined())
+		
+		message: "Achievement must have the reward file name defined."
+	}
+	
+	constraint acceptedRewardFileName{
+		check: Achievement.all.forAll(r | r.rewardFileName.matches("^[a-z0-9_]*$"))
+		
+		message: "Achievement reward file name must contain only [a-z0-9_]."
+	}
+}
+
+context Hint {
+
+	constraint mustHaveContent{
+		check: Hint.all.forAll(r | r.content.isDefined())
+		
+		message: "Hint must have content."
+	}
+}

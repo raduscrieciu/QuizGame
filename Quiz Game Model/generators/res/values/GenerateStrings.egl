@@ -1,0 +1,30 @@
+[%
+var color : String = "#FFFFFF";
+var textColor : String = "#FFFFFF";
+var colorScheme : String = QuizGame.all.first().colorScheme.name;
+
+if(colorScheme.equals("black")){
+	color="#BCBCBC";
+}else if(colorScheme.equals("white")){
+	color="#5B5A5A";
+	textColor="#000000";
+}else if(colorScheme.equals("blue")){
+	color="#44C0D6";
+}else if(colorScheme.equals("purple")){
+	color="#D68FE8";
+}else if(colorScheme.equals("red")){
+	color="#EE7171";
+}else if(colorScheme.equals("yellow")){
+	color="#CCFF00";
+}
+%]
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">[%= QuizGame.all.first().applicationName%]</string>
+    <string name="action_settings">Settings</string>
+    
+    <color name="white">[%=textColor%]</color>
+    <color name="background_color">[%=color%]</color>
+
+</resources>

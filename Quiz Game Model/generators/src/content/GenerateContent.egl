@@ -1,0 +1,140 @@
+package [%= QuizGame.all.first().packageName %].content;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import quizgame.framework.Achievement;
+import quizgame.framework.GameLevels;
+import quizgame.framework.HangmanQuestion;
+import quizgame.framework.Hint;
+import quizgame.framework.Level;
+import quizgame.framework.MapQuestion;
+import quizgame.framework.MultipleChoiceQuestion;
+import quizgame.framework.Question;
+import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.LinearLayout.LayoutParams;
+
+import com.raduscrieciu.quizgame.HintActivity;
+import com.raduscrieciu.quizgame.R;
+
+/**
+ * 
+ * Model Data
+ * EGL Generated Class
+ * @author Radu
+ *
+ */
+public abstract class ModelData{
+
+	public static final int LEVEL_SELECT_BUTTON_BACKGROUND=R.drawable.button;
+	public static final String TYPEFACE="[%= QuizGame.all.first().typeface %]";
+	public static void populateQuestions(Context context){
+		GameLevels.load(context);
+         
+        if(GameLevels.getNumberOfLevels()==0){
+        
+        Question question;
+        List<Hint> hints;
+        Level level;
+        
+        [% for (level in QuizGame.all.levels.flatten()) { %]
+        
+  			level=new Level("[%= level.name %]");
+  			[% for(question in level.questions){
+  			
+  				if(question.type().name.startsWith("Multiple")){ %]
+				question = new [%= question.type().name %](
+				    "[%= question.questionText %]",
+					"[%= question.correctAnswer %]",
+					"[%= question.wrongAnswer1 %]",
+					"[%= question.wrongAnswer2 %]");
+				
+				hints=new ArrayList<Hint>();
+				[% for(hint in question.hints){ %]
+				hints.add(new Hint("[%= hint.content %]"));
+				[% } %]
+				question.setHints(hints);
+				level.addQuestion(question);
+				
+  				[% }else if(question.type().name.startsWith("Hangman")){ %]
+  				question = new [%= question.type().name %](
+  				    "[%= question.questionText %]",
+					"[%= question.correctAnswer %]");
+  				
+  				hints=new ArrayList<Hint>();
+				[% for(hint in question.hints){ %]
+				hints.add(new Hint("[%= hint.content %]"));
+				[% } %]
+				question.setHints(hints);
+				level.addQuestion(question);
+				
+  				[% }else if(question.type().name.startsWith("Map")){ %]
+  				
+  				question = new [%= question.type().name %](
+  				   "[%= question.questionText %]",
+					[%= question.x %],
+					[%= question.y %],
+					R.drawable.[%= question.mapImageFileName %]);
+					
+				hints=new ArrayList<Hint>();
+				[% for(hint in question.hints){ %]
+				hints.add(new Hint("[%= hint.content %]"));
+				[% } %]
+				question.setHints(hints);
+				level.addQuestion(question);
+					
+  				[% } %]
+  			[% } %]
+  			
+  			level.setAchievement(new Achievement("[%= level.achievement.name %]", //title
+  									"[%= level.achievement.description %]", //description
+  									"[%= level.achievement.rewardFileName %]", //reward file name
+  									false, //completed
+  									false)); //redeemed
+  									
+  			GameLevels.addLevel(level);
+		[% } %]
+		 GameLevels.save(context);
+        }else{
+           Log.i("Quiz Game", "Generated content successfully loaded.");
+        }
+	}
+	
+	
+	public static void populateHints(Question question, LinearLayout hintsLayout, final Context context){
+		hintsLayout.removeAllViews();
+		
+		Button hintButton;
+		LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(0,
+	            LayoutParams.WRAP_CONTENT);
+		params.weight=1;
+		params.setMargins(5, 5, 5, 5);
+		int index=0;
+		
+		for(final Hint hint: question.getHints()){
+			index++;
+			hintButton=new Button(context);
+			hintButton.setText("Hint "+index);
+			hintButton.setBackgroundResource(R.drawable.button);
+			hintButton.setTextColor(context.getResources().getColor(R.color.white));
+			hintButton.setLayoutParams(params);
+			
+			hintButton.setOnClickListener(new OnClickListener(){
+				@Override
+				public void onClick(View v) {
+					Intent intent = new Intent(context, HintActivity.class);
+					intent.putExtra("hint", hint);  // pass your values and retrieve them in the other Activity using keyName
+					context.startActivity(intent);
+				}
+			});
+			
+			hintsLayout.addView(hintButton);
+		}
+	}
+}

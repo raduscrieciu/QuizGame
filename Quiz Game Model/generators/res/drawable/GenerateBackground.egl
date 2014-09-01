@@ -1,0 +1,33 @@
+[%
+var startColor : String = "#FFFFFF";
+var endColor : String = "#FFFFFF";
+var colorScheme : String = QuizGame.all.first().colorScheme.name;
+
+if(colorScheme.equals("black")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("white")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("blue")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("purple")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("red")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("yellow")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}
+%]
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient 
+        android:startColor="[%= startColor%]" 
+        android:endColor="[%= endColor%]"
+        android:angle="270"
+     />
+</shape>

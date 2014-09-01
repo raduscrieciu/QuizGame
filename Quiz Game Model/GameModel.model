@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<QuizGameMetamodel:QuizGame xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:QuizGameMetamodel="QuizGameMetamodel" xmi:id="_mCypYAv-EeSkcJGg3QGyyg" applicationName="Regions" typeface="Arista2.0.ttf" packageName="com.raduscrieciu.quizgame" androidProjectName="QuizGame" versionCode="1" versionName="1.1">
+  <levels xmi:id="_moYCsAv-EeSkcJGg3QGyyg" name="Level One">
+    <questions xsi:type="QuizGameMetamodel:MapQuestion" xmi:id="_nywLIAv-EeSkcJGg3QGyyg" questionText="Which city in Yorkshire is known as the City of Steel?" x="88" y="22" mapImageFileName="map">
+      <hints xmi:id="_4IhrYAzdEeSeT4bOVzKTMw" content="sheffield1.html"/>
+      <hints xmi:id="_6guR0AzdEeSeT4bOVzKTMw" content="sheffield2.html"/>
+    </questions>
+    <questions xsi:type="QuizGameMetamodel:MultipleChoiceQuestion" xmi:id="_3I1UsAz4EeSeT4bOVzKTMw" questionText="What is the population of Yorkshire according to the 2011 census?" correctAnswer="5.3 million" wrongAnswer1="4.8 million" wrongAnswer2="4.2 million">
+      <hints xmi:id="_6iVnIAz4EeSeT4bOVzKTMw" content="Less than 6 million."/>
+    </questions>
+    <questions xsi:type="QuizGameMetamodel:HangmanQuestion" xmi:id="_HT3cEAz9EeSeT4bOVzKTMw" questionText="Name the best selling Leeds-born author of the book Talking Heads?" correctAnswer="Pam Ayres">
+      <hints xmi:id="_LUDUAAz9EeSeT4bOVzKTMw" content="pam.html"/>
+    </questions>
+    <questions xsi:type="QuizGameMetamodel:HangmanQuestion" xmi:id="_NddwkBcOEeSm-JKKETra1w" questionText="Which river runs through the heart of the historic city of York?" correctAnswer="River Ure">
+      <hints xmi:id="_fIt4wCIvEeSreY_vIotUDQ" content="ure1.html"/>
+      <hints xmi:id="_gOmiwCIvEeSreY_vIotUDQ" content="ure2.html"/>
+    </questions>
+    <achievement xmi:id="_nW7x0Av-EeSkcJGg3QGyyg" name="My First Level" description="Complete all questions in Level One." rewardFileName="voucher1.html"/>
+  </levels>
+  <levels xmi:id="_nAKQkAv-EeSkcJGg3QGyyg" name="Level Two">
+    <questions xsi:type="QuizGameMetamodel:MapQuestion" xmi:id="_onA5oAv-EeSkcJGg3QGyyg" questionText="Which West Yorkshire town is the birthplace of former Prime Minister Harlold Wilson?" x="23" y="35" mapImageFileName="map">
+      <hints xmi:id="_5h210AzdEeSeT4bOVzKTMw" content="huddersfield.html"/>
+    </questions>
+    <questions xsi:type="QuizGameMetamodel:MultipleChoiceQuestion" xmi:id="_kLt_QBcQEeSm-JKKETra1w" questionText="How many national parks are within Yorkshire's county borders?" correctAnswer="Two" wrongAnswer1="Three" wrongAnswer2="Five">
+      <hints xmi:id="_Qx1dUCIwEeSreY_vIotUDQ" content="More than two."/>
+    </questions>
+    <achievement xmi:id="_oMzp4Av-EeSkcJGg3QGyyg" name="My 2nd Achievement" description="Complete Level Two" rewardFileName="voucher2.html"/>
+  </levels>
+  <levels xmi:id="_SmNl0CRxEeS24MJXDljeOw" name="My Level">
+    <questions xsi:type="QuizGameMetamodel:MultipleChoiceQuestion" xmi:id="_VfjKcCRxEeS24MJXDljeOw" questionText="aaaaaaa" correctAnswer="aasasa" wrongAnswer1="bbbbbbbbb" wrongAnswer2="ccccccccccc"/>
+    <questions xsi:type="QuizGameMetamodel:HangmanQuestion" xmi:id="_TOt60CRyEeS24MJXDljeOw" questionText="type in correct." correctAnswer="correct"/>
+    <achievement xmi:id="_U6ofgCRxEeS24MJXDljeOw" name="asgsfg" description="safvdf" rewardFileName="asgyhu"/>
+  </levels>
+</QuizGameMetamodel:QuizGame>

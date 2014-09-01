@@ -1,0 +1,64 @@
+@namespace(uri="QuizGameMetamodel", prefix="QuizGameMetamodel")
+package QuizGameMetamodel;
+
+@gmf.diagram
+class QuizGame {
+  attr String[1] applicationName;
+  attr ColorScheme[1] colorScheme;
+  attr String typeface;
+  attr String[1] packageName;
+  attr String[1] androidProjectName;
+  attr int[1] versionCode;
+  attr String[1] versionName;
+  val Level[+] levels;
+}
+
+@gmf.node(figure="rectangle", label="name")
+class Level {
+  attr String name;
+  val Question[+] questions;
+  val Achievement[1] achievement;
+}
+
+@gmf.node(figure="rounded", label="questionText")
+abstract class Question {
+  attr String[1] questionText;
+  val Hint[0..3] hints;
+}
+
+class MultipleChoiceQuestion extends Question {
+  attr String[1] correctAnswer;
+  attr String[1] wrongAnswer1;
+  attr String[1] wrongAnswer2;
+}
+
+class HangmanQuestion extends Question {
+  attr String[1] correctAnswer;
+}
+
+class MapQuestion extends Question {
+  attr int[1] x;
+  attr int[1] y;
+  attr String[1] mapImageFileName;
+}
+
+@gmf.node(figure="ellipse", label="name")
+class Achievement {
+  attr String[1] name;
+  attr String description;
+  attr String[1] rewardFileName;
+}
+
+class Hint {
+  attr String[1] content;
+}
+
+enum ColorScheme {
+  blue = 0;
+  red = 1;
+  yellow = 2;
+  purple = 3;
+  black = 4;
+  white = 5;
+}
+

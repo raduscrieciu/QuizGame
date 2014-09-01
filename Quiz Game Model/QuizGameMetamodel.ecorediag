@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_MH_K4CSBEeSAreiWU9natQ" type="EcoreTools" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_MIEqcCSBEeSAreiWU9natQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_MIVwMCSBEeSAreiWU9natQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_MIW-UCSBEeSAreiWU9natQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_MIYzgCSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//QuizGame/applicationName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIYzgSSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIYzgiSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//QuizGame/colorScheme"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIYzgySBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIYzhCSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//QuizGame/typeface"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIYzhSSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIYzhiSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//QuizGame/packageName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIYzhySBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIYziCSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//QuizGame/androidProjectName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIYziSSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIYziiSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//QuizGame/versionCode"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIYziySBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIZakCSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//QuizGame/versionName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIZakSSBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIW-USSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIW-UiSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIW-UySBEeSAreiWU9natQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIXlYCSBEeSAreiWU9natQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIXlYSSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIXlYiSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIXlYySBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIEqcSSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="QuizGameMetamodel.ecore#//QuizGame"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIEqciSBEeSAreiWU9natQ" x="669" y="491"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_MIZakiSBEeSAreiWU9natQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_MIZalSSBEeSAreiWU9natQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_MIZaliSBEeSAreiWU9natQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_MIaBoCSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//Level/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIaBoSSBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIZalySBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIZamCSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIZamSSBEeSAreiWU9natQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIZamiSBEeSAreiWU9natQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIZamySBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIZanCSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIZanSSBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIZakySBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="QuizGameMetamodel.ecore#//Level"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIZalCSBEeSAreiWU9natQ" x="714" y="346"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_MIaBoiSBEeSAreiWU9natQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_MIaBpSSBEeSAreiWU9natQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_MIaBpiSBEeSAreiWU9natQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_MIaBriSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//Question/questionText"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIaBrySBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIaBpySBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIaBqCSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIaBqSSBEeSAreiWU9natQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIaBqiSBEeSAreiWU9natQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIaBqySBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIaBrCSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIaBrSSBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIaBoySBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="QuizGameMetamodel.ecore#//Question"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIaBpCSBEeSAreiWU9natQ" x="353" y="201"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_MIaosCSBEeSAreiWU9natQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_MIaosySBEeSAreiWU9natQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_MIaotCSBEeSAreiWU9natQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_MIaovCSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//MultipleChoiceQuestion/correctAnswer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIaovSSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIaoviSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//MultipleChoiceQuestion/wrongAnswer1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIaovySBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIaowCSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//MultipleChoiceQuestion/wrongAnswer2"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIaowSSBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIaotSSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIaotiSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIaotySBEeSAreiWU9natQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIaouCSBEeSAreiWU9natQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIaouSSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIaouiSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIaouySBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIaosSSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="QuizGameMetamodel.ecore#//MultipleChoiceQuestion"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIaosiSBEeSAreiWU9natQ" y="346"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_MIaowiSBEeSAreiWU9natQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_MIbPwCSBEeSAreiWU9natQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_MIbPwSSBEeSAreiWU9natQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_MIbPySSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//HangmanQuestion/correctAnswer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIbPyiSBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIbPwiSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIbPwySBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIbPxCSBEeSAreiWU9natQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIbPxSSBEeSAreiWU9natQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIbPxiSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIbPxySBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIbPyCSBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIaowySBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="QuizGameMetamodel.ecore#//HangmanQuestion"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIaoxCSBEeSAreiWU9natQ" x="229" y="346"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_MIbPyySBEeSAreiWU9natQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_MIbPziSBEeSAreiWU9natQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_MIbPzySBEeSAreiWU9natQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_MIb20CSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//MapQuestion/x"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIb20SSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIb20iSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//MapQuestion/y"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIb20ySBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIb21CSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//MapQuestion/mapImageFileName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIb21SSBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIbP0CSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIbP0SSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIbP0iSBEeSAreiWU9natQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIbP0ySBEeSAreiWU9natQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIbP1CSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIbP1SSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIbP1iSBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIbPzCSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="QuizGameMetamodel.ecore#//MapQuestion"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIbPzSSBEeSAreiWU9natQ" x="455" y="346"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_MIb21iSBEeSAreiWU9natQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_MIcd4CSBEeSAreiWU9natQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_MIcd4SSBEeSAreiWU9natQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_MIcd6SSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//Achievement/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIcd6iSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIcd6ySBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//Achievement/description"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIcd7CSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIcd7SSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//Achievement/rewardFileName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIcd7iSBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIcd4iSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIcd4ySBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIcd5CSBEeSAreiWU9natQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIcd5SSBEeSAreiWU9natQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIcd5iSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIcd5ySBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIcd6CSBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIb21ySBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="QuizGameMetamodel.ecore#//Achievement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIb22CSBEeSAreiWU9natQ" x="682" y="201"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_MIcd7ySBEeSAreiWU9natQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_MIcd8iSBEeSAreiWU9natQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_MIcd8ySBEeSAreiWU9natQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_MIdE8CSBEeSAreiWU9natQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="QuizGameMetamodel.ecore#//Hint/content"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIdE8SSBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIcd9CSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIcd9SSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIcd9iSBEeSAreiWU9natQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIcd9ySBEeSAreiWU9natQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIcd-CSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIcd-SSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIcd-iSBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIcd8CSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="QuizGameMetamodel.ecore#//Hint"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIcd8SSBEeSAreiWU9natQ" x="368"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_MIdsACSBEeSAreiWU9natQ" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_MIdsAySBEeSAreiWU9natQ" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_MIdsBCSBEeSAreiWU9natQ" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_MIeTECSBEeSAreiWU9natQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="QuizGameMetamodel.ecore#//ColorScheme/blue"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIeTESSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIeTEiSBEeSAreiWU9natQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="QuizGameMetamodel.ecore#//ColorScheme/red"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIeTEySBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIeTFCSBEeSAreiWU9natQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="QuizGameMetamodel.ecore#//ColorScheme/yellow"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIeTFSSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIeTFiSBEeSAreiWU9natQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="QuizGameMetamodel.ecore#//ColorScheme/purple"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIeTFySBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIeTGCSBEeSAreiWU9natQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="QuizGameMetamodel.ecore#//ColorScheme/black"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIeTGSSBEeSAreiWU9natQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MIeTGiSBEeSAreiWU9natQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="QuizGameMetamodel.ecore#//ColorScheme/white"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MIeTGySBEeSAreiWU9natQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_MIdsBSSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_MIdsBiSBEeSAreiWU9natQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_MIdsBySBEeSAreiWU9natQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_MIdsASSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="QuizGameMetamodel.ecore#//ColorScheme"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIdsAiSBEeSAreiWU9natQ" x="658"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_MH_K4SSBEeSAreiWU9natQ"/>
+  <element xmi:type="ecore:EPackage" href="QuizGameMetamodel.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_MIfhMCSBEeSAreiWU9natQ" type="3002" source="_MIEqcCSBEeSAreiWU9natQ" target="_MIZakiSBEeSAreiWU9natQ">
+    <children xmi:type="notation:Node" xmi:id="_MIgIQCSBEeSAreiWU9natQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MIgIQSSBEeSAreiWU9natQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIgvUCSBEeSAreiWU9natQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MIgvUSSBEeSAreiWU9natQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_MIfhMSSBEeSAreiWU9natQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MIfhMiSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="QuizGameMetamodel.ecore#//QuizGame/levels"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MIfhMySBEeSAreiWU9natQ" points="[0, 0, 0, 94]$[0, -94, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJDh5CSBEeSAreiWU9natQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJDh5SSBEeSAreiWU9natQ" id="(0.4956521739130435,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MIgvUiSBEeSAreiWU9natQ" type="3002" source="_MIZakiSBEeSAreiWU9natQ" target="_MIaBoiSBEeSAreiWU9natQ">
+    <children xmi:type="notation:Node" xmi:id="_MIgvViSBEeSAreiWU9natQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MIgvVySBEeSAreiWU9natQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIgvWCSBEeSAreiWU9natQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MIgvWSSBEeSAreiWU9natQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_MIgvUySBEeSAreiWU9natQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MIgvVCSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="QuizGameMetamodel.ecore#//Level/questions"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MIgvVSSBEeSAreiWU9natQ" points="[0, 0, 264, 94]$[-264, -94, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJC61CSBEeSAreiWU9natQ" id="(0.24347826086956523,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJC61SSBEeSAreiWU9natQ" id="(0.7961783439490446,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MIgvWiSBEeSAreiWU9natQ" type="3002" source="_MIZakiSBEeSAreiWU9natQ" target="_MIb21iSBEeSAreiWU9natQ">
+    <children xmi:type="notation:Node" xmi:id="_MIhWYCSBEeSAreiWU9natQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MIhWYSSBEeSAreiWU9natQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIhWYiSBEeSAreiWU9natQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MIhWYySBEeSAreiWU9natQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_MIgvWySBEeSAreiWU9natQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MIgvXCSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="QuizGameMetamodel.ecore#//Level/achievement"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MIgvXSSBEeSAreiWU9natQ" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJDh4CSBEeSAreiWU9natQ" id="(0.4956521739130435,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJDh4SSBEeSAreiWU9natQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MIhWZCSBEeSAreiWU9natQ" type="3002" source="_MIaBoiSBEeSAreiWU9natQ" target="_MIcd7ySBEeSAreiWU9natQ">
+    <children xmi:type="notation:Node" xmi:id="_MIhWaCSBEeSAreiWU9natQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MIhWaSSBEeSAreiWU9natQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_MIhWaiSBEeSAreiWU9natQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MIhWaySBEeSAreiWU9natQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_MIhWZSSBEeSAreiWU9natQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MIhWZiSBEeSAreiWU9natQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="QuizGameMetamodel.ecore#//Question/hints"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MIhWZySBEeSAreiWU9natQ" points="[0, 0, 0, 150]$[0, -150, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJC60CSBEeSAreiWU9natQ" id="(0.4968152866242038,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJC60SSBEeSAreiWU9natQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MIh9cCSBEeSAreiWU9natQ" type="3003" source="_MIaosCSBEeSAreiWU9natQ" target="_MIaBoiSBEeSAreiWU9natQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_MIh9cSSBEeSAreiWU9natQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MIh9ciSBEeSAreiWU9natQ" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MIh9cySBEeSAreiWU9natQ" points="[0, 0, -300, 94]$[0, -30, -300, 64]$[300, -30, 0, 64]$[300, -94, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJDh4iSBEeSAreiWU9natQ" id="(0.4970414201183432,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJDh4ySBEeSAreiWU9natQ" id="(0.19745222929936307,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MIh9dCSBEeSAreiWU9natQ" type="3003" source="_MIaowiSBEeSAreiWU9natQ" target="_MIaBoiSBEeSAreiWU9natQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_MIh9dSSBEeSAreiWU9natQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MIh9diSBEeSAreiWU9natQ" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MIh9dySBEeSAreiWU9natQ" points="[0, 0, -103, 94]$[0, -30, -103, 64]$[103, -30, 0, 64]$[103, -94, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJC60iSBEeSAreiWU9natQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJC60ySBEeSAreiWU9natQ" id="(0.39490445859872614,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MIh9eCSBEeSAreiWU9natQ" type="3003" source="_MIbPyySBEeSAreiWU9natQ" target="_MIaBoiSBEeSAreiWU9natQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_MIh9eSSBEeSAreiWU9natQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MIh9eiSBEeSAreiWU9natQ" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MIh9eySBEeSAreiWU9natQ" points="[0, 0, 107, 94]$[0, -30, 107, 64]$[-107, -30, 0, 64]$[-107, -94, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJEI8CSBEeSAreiWU9natQ" id="(0.49748743718592964,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MJEI8SSBEeSAreiWU9natQ" id="(0.5987261146496815,1.0)"/>
+  </edges>
+</notation:Diagram>

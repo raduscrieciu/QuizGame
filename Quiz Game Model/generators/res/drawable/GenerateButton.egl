@@ -1,0 +1,62 @@
+[%
+var startColor : String = "#FFFFFF";
+var endColor : String = "#FFFFFF";
+var colorScheme : String = QuizGame.all.first().colorScheme.name;
+
+if(colorScheme.equals("black")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("white")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("blue")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("purple")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("red")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}else if(colorScheme.equals("yellow")){
+	startColor="#00A9EA";
+	endColor="#006CAF";
+}
+%]
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <solid
+                android:color="#449def" />
+            <stroke
+                android:width="1dp"
+                android:color="#ffffff" />
+            <corners
+                android:radius="3dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="[%= startColor %]"
+                android:endColor="[%= endColor %]"
+                android:angle="270" />
+            <stroke
+                android:width="1dp"
+                android:color="#ffffff" />
+            <corners
+                android:radius="4dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
