@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <PreferenceCategory android:title="Preferences" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sound_preference"
+            android:summary="Enable or disable in-game sounds."
+            android:title="Game Sounds" >
+        </CheckBoxPreference>
+        
+        
+         <Preference
+            android:key="reset_progress"
+            android:summary="This will erase all game progress."
+            android:title="Reset Progress?" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

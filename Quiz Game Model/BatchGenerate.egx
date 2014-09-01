@@ -117,7 +117,7 @@ rule Background2Android
   
   template : "generators/res/drawable/GenerateBackground.egl"
   
-  target : "../QuizGame/res/drawable/background.xml"
+  target : getProjectRootFilePath()+"/res/drawable/background.xml"
 }
 
 rule Button2Android
@@ -125,7 +125,7 @@ rule Button2Android
   
   template : "generators/res/drawable/GenerateButton.egl"
   
-  target : "../QuizGame/res/drawable/button.xml"
+  target : getProjectRootFilePath()+"/res/drawable/button.xml"
 }
 
 rule ButtonGreen2Android
@@ -133,7 +133,7 @@ rule ButtonGreen2Android
   
   template : "generators/res/drawable/GenerateButtonGreen.egl"
   
-  target : "../QuizGame/res/drawable/button_green.xml"
+  target : getProjectRootFilePath()+"/res/drawable/button_green.xml"
 }
 
 rule Label2Android
@@ -141,7 +141,7 @@ rule Label2Android
   
   template : "generators/res/drawable/GenerateLabel.egl"
   
-  target : "../QuizGame/res/drawable/label.xml"
+  target : getProjectRootFilePath()+"/res/drawable/label.xml"
 }
 
 rule AchievementDialog2Android
@@ -149,7 +149,7 @@ rule AchievementDialog2Android
   
   template : "generators/res/layout/GenerateAchievementDialog.egl"
   
-  target : "../QuizGame/res/layout/achievement_dialog.xml"
+  target : getProjectRootFilePath()+"/res/layout/achievement_dialog.xml"
 }
 
 rule AchievementsListItem2Android
@@ -157,7 +157,7 @@ rule AchievementsListItem2Android
   
   template : "generators/res/layout/GenerateAchievementsListItem.egl"
   
-  target : "../QuizGame/res/layout/achievements_list_item.xml"
+  target : getProjectRootFilePath()+"/res/layout/achievements_list_item.xml"
 }
 
 rule ActivityAchievements2Android
@@ -165,7 +165,7 @@ rule ActivityAchievements2Android
   
   template : "generators/res/layout/GenerateActivityAchievements.egl"
   
-  target : "../QuizGame/res/layout/activity_achievements.xml"
+  target : getProjectRootFilePath()+"/res/layout/activity_achievements.xml"
 }
 
 rule ActivityChoices2Android
@@ -173,7 +173,7 @@ rule ActivityChoices2Android
   
   template : "generators/res/layout/GenerateActivityChoices.egl"
   
-  target : "../QuizGame/res/layout/activity_choices.xml"
+  target : getProjectRootFilePath()+"/res/layout/activity_choices.xml"
 }
 
 rule ActivityHangman2Android
@@ -181,7 +181,7 @@ rule ActivityHangman2Android
   
   template : "generators/res/layout/GenerateActivityHangman.egl"
   
-  target : "../QuizGame/res/layout/activity_hangman.xml"
+  target : getProjectRootFilePath()+"/res/layout/activity_hangman.xml"
 }
 
 rule ActivityHint2Android
@@ -189,7 +189,7 @@ rule ActivityHint2Android
   
   template : "generators/res/layout/GenerateActivityHint.egl"
   
-  target : "../QuizGame/res/layout/activity_hint.xml"
+  target : getProjectRootFilePath()+"/res/layout/activity_hint.xml"
 }
 
 rule ActivityMain2Android
@@ -197,7 +197,7 @@ rule ActivityMain2Android
   
   template : "generators/res/layout/GenerateActivityMain.egl"
   
-  target : "../QuizGame/res/layout/activity_main.xml"
+  target : getProjectRootFilePath()+"/res/layout/activity_main.xml"
 }
 
 rule ActivityMap2Android
@@ -205,7 +205,7 @@ rule ActivityMap2Android
   
   template : "generators/res/layout/GenerateActivityMap.egl"
   
-  target : "../QuizGame/res/layout/activity_map.xml"
+  target : getProjectRootFilePath()+"/res/layout/activity_map.xml"
 }
 
 rule ActivityWelcome2Android
@@ -213,7 +213,7 @@ rule ActivityWelcome2Android
   
   template : "generators/res/layout/GenerateActivityWelcome.egl"
   
-  target : "../QuizGame/res/layout/activity_welcome.xml"
+  target : getProjectRootFilePath()+"/res/layout/activity_welcome.xml"
 }
 
 rule FragmentLevels2Android
@@ -221,7 +221,7 @@ rule FragmentLevels2Android
   
   template : "generators/res/layout/GenerateFragmentLevels.egl"
   
-  target : "../QuizGame/res/layout/fragment_levels.xml"
+  target : getProjectRootFilePath()+"/res/layout/fragment_levels.xml"
 }
 
 rule Settings2Android
@@ -229,7 +229,7 @@ rule Settings2Android
   
   template : "generators/res/layout/GenerateSettings.egl"
   
-  target : "../QuizGame/res/layout/settings.xml"
+  target : getProjectRootFilePath()+"/res/layout/settings.xml"
 }
 
 rule ActivityChoicesLandscape2Android
@@ -237,7 +237,7 @@ rule ActivityChoicesLandscape2Android
   
   template : "generators/res/layout-land/GenerateActivityChoices.egl"
   
-  target : "../QuizGame/res/layout-land/activity_choices.xml"
+  target : getProjectRootFilePath()+"/res/layout-land/activity_choices.xml"
 }
 
 rule ActivityHangmanLandscape2Android
@@ -245,7 +245,7 @@ rule ActivityHangmanLandscape2Android
   
   template : "generators/res/layout-land/GenerateActivityHangman.egl"
   
-  target : "../QuizGame/res/layout-land/activity_hangman.xml"
+  target : getProjectRootFilePath()+"/res/layout-land/activity_hangman.xml"
 }
 
 rule ActivityMapLandscape2Android
@@ -253,7 +253,7 @@ rule ActivityMapLandscape2Android
   
   template : "generators/res/layout-land/GenerateActivityMap.egl"
   
-  target : "../QuizGame/res/layout-land/activity_map.xml"
+  target : getProjectRootFilePath()+"/res/layout-land/activity_map.xml"
 }
 
 rule Menu2Android
@@ -261,7 +261,7 @@ rule Menu2Android
   
   template : "generators/res/menu/GenerateMenu.egl"
   
-  target : "../QuizGame/res/menu/menu.xml"
+  target : getProjectRootFilePath()+"/res/menu/menu.xml"
 }
 
 rule Strings2Android
@@ -269,7 +269,7 @@ rule Strings2Android
   
   template : "generators/res/values/GenerateStrings.egl"
   
-  target : "../QuizGame/res/values/strings.xml"
+  target : getProjectRootFilePath()+"/res/values/strings.xml"
 }
 
 rule Styles2Android

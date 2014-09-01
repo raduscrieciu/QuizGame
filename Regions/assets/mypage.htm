@@ -1,0 +1,3090 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=038622610830">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=fd7230a85918">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="http://stackoverflow.com/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon@2.png?v=fde65a5a78c6">
+    <meta name="og:title" content="Eclipse Indigo - Cannot install Android ADT Plugin">
+    <meta name="og:description" content="When I try to install the Android Developer Tool, I get the following error.
+
+
+  Software being installed: Android
+  Development Tools
+  11.0.0.v201105251008-128486 ">
+    <meta name="og:url" content="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin">
+    <link rel="canonical" href="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow.htm">
+
+    
+    
+    <script async="" src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/quant.js"></script><script async="" src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/beacon.js"></script><script async="" src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/analytics.js"></script><script type="text/javascript" async="" src="http://static.adzerk.net/ados.js"></script><script src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/jquery.min.js"></script><style type="text/css"></style><style type="text/css"></style>
+    <script src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/stub.en.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/all.css">
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed for question &#39;Eclipse Indigo - Cannot install Android ADT Plugin&#39;" href="http://stackoverflow.com/feeds/question/6482268">
+    <script>
+        
+        StackExchange.ready(function () {
+            StackExchange.using("postValidation", function () {
+                StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+            });
+
+            
+            StackExchange.question.init({showAnswerHelp:true,totalCommentCount:6,shownCommentCount:5,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:6482268});
+
+            styleCode();
+
+                StackExchange.realtime.subscribeToQuestion('1', '6482268');
+            
+                    });
+    </script>
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","serverTime":1407831979,"networkMetaHostname":"meta.stackexchange.com","styleCode":true,"enableUserHovercards":true,"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"nonAsciiTags":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"67c2b1ccbba495b9f36e4ea20126852a","isAnonymous":true,"ab":{"inbox_subscribe_on_answer":{"v":"show","g":1}}}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"6f07cbaf3178","js/moderator.en.js":"5364535a0cf6","js/full-anon.en.js":"45bae4232a1e","js/full.en.js":"4ebebe75e724","js/wmd.en.js":"2da0edec1d21","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"5a1e717ab0e4","js/help.en.js":"56d0a3a560ae","js/tageditor.en.js":"5eb3aa825d92","js/tageditornew.en.js":"d8391d7af113","js/inline-tag-editing.en.js":"7e793ad8611c","js/revisions.en.js":"989c474e85a9","js/review.en.js":"2dafdcb7d2f1","js/tagsuggestions.en.js":"bb4721d888d2","js/post-validation.en.js":"fcd7881bffc0","js/explore-qlist.en.js":"8b8b631bd679","js/events.en.js":"4f8be0354b8e","js/keyboard-shortcuts.en.js":"168f7601664d"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+<script async="" src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/full-anon.en.js"></script><script async="" src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/post-validation.en.js"></script><script async="" src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/prettify-full.en.js"></script></head>
+<body class="question-page new-topbar" itemscope="" itemtype="http://schema.org/QAPage">
+    <noscript>&lt;div id="noscript-padding"&gt;&lt;/div&gt;</noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+<div class="topbar">
+    <div class="topbar-wrapper">
+        
+        <div class="js-topbar-dialog-corral">
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="http://stackoverflow.com/">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+            <a href="http://chat.stackoverflow.com/" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+                    <a href="http://blog.stackoverflow.com/" data-gps-track="site_switcher.click({ item_type:7 })">blog</a>
+            </div>
+
+
+
+
+    <a href="http://stackoverflow.com/" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com/" class="site-link js-gps-track" data-id="552" data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link" href="http://careers.stackoverflow.com/" data-gps-track="site_switcher.click({ item_type:9 })">
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Careers 2.0
+                    </a>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+                        <a href="https://stackoverflow.com/users/signup?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f6482268%2feclipse-indigo-cannot-install-android-adt-plugin" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a>
+                    or
+                    <a href="https://stackoverflow.com/users/login?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f6482268%2feclipse-indigo-cannot-install-android-adt-plugin" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a>
+
+                    to customize your list.
+            </div>
+    </div>
+    
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+            
+            <a href="http://stackexchange.com/" class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 130 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+            
+        </div>
+
+        <div class="topbar-links">
+            
+                <div class="links-container">
+                    <span class="topbar-menu-links">
+                            <a href="https://stackoverflow.com/users/signup?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f6482268%2feclipse-indigo-cannot-install-android-adt-plugin" class="login-link">sign up</a>
+                            <a href="https://stackoverflow.com/users/login?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f6482268%2feclipse-indigo-cannot-install-android-adt-plugin" class="login-link">log in</a>
+                            <a href="http://stackoverflow.com/tour">tour</a>
+
+                            <a href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="http://stackoverflow.com/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="http://stackoverflow.com/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+                            <a href="http://careers.stackoverflow.com/">careers 2.0</a>
+                    </span>
+                </div>
+
+			<div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="search" value="" tabindex="1" autocomplete="off" maxlength="240">
+                </form>
+			</div>
+            	
+        </div>      
+    </div> 
+</div>
+<script>
+    StackExchange.ready(function () { StackExchange.topbar.init(); });
+</script>
+    <div class="container">
+        <div id="header" class="headeranon">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="http://stackoverflow.com/">
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs mainnavsanon">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="http://stackoverflow.com/questions">Questions</a></li>
+                        <li><a id="nav-tags" href="http://stackoverflow.com/tags">Tags</a></li>
+                        <li><a id="nav-users" href="http://stackoverflow.com/users">Users</a></li>
+                        <li><a id="nav-badges" href="http://stackoverflow.com/help/badges">Badges</a></li>
+                        <li><a id="nav-unanswered" href="http://stackoverflow.com/unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion" href="http://stackoverflow.com/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content">
+            
+
+<div itemscope="" itemtype="http://schema.org/Question">
+	<link itemprop="image" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png">
+			<!--googleoff: all-->
+
+<div id="herobox-mini">
+    <div id="hero-content">
+        <span id="controls">
+            <a href="http://stackoverflow.com/tour" id="tell-me-more" class="button">Take the 2-minute tour</a>
+            <span id="close"><a title="click to dismiss">×</a></span>
+        </span>
+        <div id="blurb">
+            Stack Overflow is a question and answer site for professional and enthusiast programmers. It's 100% free, no registration required.
+        </div>        
+    </div>
+    <script>
+        $('#tell-me-more').click(function () {
+            var clickSource = $("body").attr("class") + '-mini';
+            if ($("body").hasClass("questions-page")) {
+                clickSource = 'questionpagemini';
+            } else if ($("body").hasClass("question-page")) {
+                clickSource = 'questionpagemini';
+            } else if ($("body").hasClass("home-page")) {
+                clickSource = 'homepagemini';
+            }
+
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("aboutpage.click", { aboutclick_location: clickSource } , true);
+            });
+        });
+        $('#herobox-mini #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "close" }, true);
+            });
+            $.cookie("hero", "none", { path: "/", expires: 365 });
+            var $hero = $("#herobox-mini");
+            $hero.slideUp('fast', function () { $hero.remove(); });
+            return false;
+        });
+    </script>
+</div>
+			<!--googleon: all-->
+			<div id="question-header">
+			<h1 itemprop="name"><a href="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow.htm" class="question-hyperlink">Eclipse Indigo - Cannot install Android ADT Plugin</a></h1>
+		</div>
+			<div id="mainbar">
+
+			
+
+<div class="question" data-questionid="6482268" id="question">
+
+    <script>
+                var ados = ados || {};ados.run = ados.run || [];
+                ados.run.push(function() { ados_add_placement(22,8277,"adzerk935565278",4).setZone(43) ; });                    
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk935565278">
+            </div>    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="6482268">
+    <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">65</span>
+    <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+    
+    <a class="star-off" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" title="This is a favorite question (click again to undo)">favorite</a>
+    <div class="favoritecount"><b>20</b></div>   
+
+</div>
+
+            </td>
+            
+<td class="postcell">
+<div>
+    <div class="post-text" itemprop="text">
+
+        <p>When I try to install the Android Developer Tool, I get the following error.</p>
+
+<blockquote>
+  <p>Software being installed: Android
+  Development Tools
+  11.0.0.v201105251008-128486 (com.android.ide.eclipse.adt.feature.group
+  11.0.0.v201105251008-128486)   Missing requirement: Android Development Tools
+  11.0.0.v201105251008-128486 (com.android.ide.eclipse.adt.feature.group
+  11.0.0.v201105251008-128486) requires 'org.eclipse.wst.sse.core 0.0.0' but
+  it could not be found</p>
+</blockquote>
+
+<p>I also found that adding the WST package does not help. I get the following,</p>
+
+<blockquote>
+  <p>Cannot complete the install because
+  one or more required items could not
+  be found.   Software being installed:
+  Google Web Toolkit SDK 2.3.0
+  2.3.0.r37v201106211634 (com.google.gwt.eclipse.sdkbundle.e37.feature.feature.group
+  2.3.0.r37v201106211634)   Missing requirement: Google Plugin for Eclipse
+  3.7 2.3.2.r37v201106211634 (com.google.gdt.eclipse.suite.e37.feature.feature.group
+  2.3.2.r37v201106211634) requires 'org.eclipse.wst.xml.core 0.0.0' but
+  it could not be found   Cannot satisfy
+  dependency:
+      From: Google Web Toolkit SDK 2.3.0 2.3.0.r37v201106211634 (com.google.gwt.eclipse.sdkbundle.e37.feature.feature.group
+  2.3.0.r37v201106211634)
+      To: com.google.gdt.eclipse.suite.e37.feature.feature.group
+  2.3.2</p>
+</blockquote>
+
+<p>I'm running Eclipse Indigo 64bit version. Could someone point me in the right direction? Or tell me where to find that missing package. </p>
+
+    </div>
+    <div class="post-taglist">
+        <a href="http://stackoverflow.com/questions/tagged/android" class="post-tag js-gps-track" title="show questions tagged &#39;android&#39;" rel="tag"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/eclipse" class="post-tag js-gps-track" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="http://stackoverflow.com/questions/tagged/adt" class="post-tag js-gps-track" title="show questions tagged &#39;adt&#39;" rel="tag">adt</a> 
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/q/6482268" title="short permalink to this question" class="short-link" id="link-post-6482268">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/6482268/edit" class="suggest-edit-post" title="">improve this question</a></div>        
+    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/6482268/revisions" title="show all edits to this post">edited <span title="2011-12-04 15:09:02Z" class="relativetime">Dec 4 '11 at 15:09</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/981787/abhinav8"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/5481f5f7c5a267ff2179813887cf5a15" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/981787/abhinav8">abhinav8</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,027</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span><span title="30 bronze badges"><span class="badge3"></span><span class="badgecount">30</span></span>
+    </div>
+</div>    </td>
+    <td class="post-signature owner">
+        <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2011-06-26 05:11:30Z" class="relativetime">Jun 26 '11 at 5:11</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/311001/hades"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/75fa5277c0e2e07f3613af392d47bf06" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/311001/hades">Hades</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1,967</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="17 silver badges"><span class="badge2"></span><span class="badgecount">17</span></span><span title="47 bronze badges"><span class="badge3"></span><span class="badgecount">47</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</div>
+</td>
+        </tr>
+                
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6482268" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="1" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-7622095" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">The ADT <a href="http://developer.android.com/sdk/requirements.html" rel="nofollow">system requirements</a> specify that it works with Eclipse 3.5, and doesn't mention 3.6 or 3.7 at all. If you want to play safe, I strongly suggest you to download Eclipse 3.5 32 bit. ADT doesn't work with Eclipse 64 bit</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/608820/augusto" title="14216 reputation" class="comment-user">Augusto</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment7622095_6482268"><span title="2011-06-26 12:12:37Z" class="relativetime-clean">Jun 26 '11 at 12:12</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-7633699" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@Augusto I'm running ADT with Eclipse x64</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/92837/sathya" title="9188 reputation" class="comment-user">Sathya</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment7633699_6482268"><span title="2011-06-27 11:12:03Z" class="relativetime-clean">Jun 27 '11 at 11:12</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-7635033" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">So am I. It works perfectly</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/311001/hades" title="1967 reputation" class="comment-user owner">Hades</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment7635033_6482268"><span title="2011-06-27 12:32:40Z" class="relativetime-clean">Jun 27 '11 at 12:32</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-9485302" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">2</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@Augusto "Eclipse 3.5 (Galileo) or greater" is supported. This can be understood as supporting the latest release.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/556493/yingted" title="2444 reputation" class="comment-user">yingted</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment9485302_6482268"><span title="2011-10-16 22:23:46Z" class="relativetime-clean">Oct 16 '11 at 22:23</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-14848421" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">If you use AVG antivirus you should disable it. Only this helped me out (thanks @Lizozom from another question about this error).</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/555506/ink" title="188 reputation" class="comment-user">ink</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment14848421_6482268"><span title="2012-07-02 04:59:35Z" class="relativetime-clean">Jul 2 '12 at 4:59</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-6482268" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link " title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick="">show <b>1</b> more comment</a>
+            </div>
+    </td>
+</tr>        </tbody></table>
+</div>
+
+			<div id="answers">
+
+				<a name="tab-top"></a>
+				<div id="answers-header">
+					<div class="subheader answers-subheader">
+						<h2>
+								19 Answers
+                                <span style="display:none;" itemprop="answerCount">19</span>
+						</h2>
+						<div>
+							<div id="tabs">
+        <a href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin?answertab=active#tab-top" title="Answers with the latest activity first">active</a>
+        <a href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin?answertab=oldest#tab-top" title="Answers in the order they were provided">oldest</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin?answertab=votes#tab-top" title="Answers with the highest score first">votes</a>
+</div>
+						</div>
+					</div>    
+				</div>    
+
+
+
+
+  
+<a name="6483214"></a>
+<div id="answer-6483214" class="answer accepted-answer" data-answerid="6483214" itemscope="" itemtype="http://schema.org/Answer" itemprop="acceptedAnswer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="6483214">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">88</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+        <span class="vote-accepted-on load-accepted-answer-date" title="The question owner accepted this as the best answer Jun 27 &#39;11 at 9:55">accepted</span>
+<div class="bounty-award-container"><span class="bounty-award" title="This answer has been awarded bounties worth 500 reputation by minitech">+500</span></div></div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Head over to <code>Help</code> -&gt; <code>Install New Software</code>. Click on Available software sites. Delete the Android repo. Uncheck Indigo &amp; Eclipse updates &amp; recheck them. Now head back to Help -&gt; Check for updates. Once done, add the Android repo again. Accept the license &amp; you should be good to go.</p>
+
+<p>(Had to do the same yesterday after getting Indigo)</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/6483214" title="short permalink to this answer" class="short-link" id="link-post-6483214">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/6483214/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2011-06-26 09:40:29Z" class="relativetime">Jun 26 '11 at 9:40</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/92837/sathya"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/1375f202e61682cc4963295f4b0430dc" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/92837/sathya">Sathya</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">9,188</span><span title="13 gold badges"><span class="badge1"></span><span class="badgecount">13</span></span><span title="47 silver badges"><span class="badge2"></span><span class="badgecount">47</span></span><span title="87 bronze badges"><span class="badge3"></span><span class="badgecount">87</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6483214" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="1" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-10290021" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Wow...!! That was awesome..!!</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/593709/adil-soomro" title="18187 reputation" class="comment-user">Adil Soomro</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment10290021_6483214"><span title="2011-12-01 15:57:49Z" class="relativetime-clean">Dec 1 '11 at 15:57</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-10510813" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Now I just get a load of messages about conflicting dependencies... Damn you java!</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/265521/timmmm" title="10106 reputation" class="comment-user">Timmmm</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment10510813_6483214"><span title="2011-12-13 18:08:26Z" class="relativetime-clean">Dec 13 '11 at 18:08</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-11269044" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">This helped me out. Also, updates were failing silently until I ran Eclipse.exe as an Administrator. It probably would not have worked if I didnt have that option.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/285714/bumbleb2na" title="4622 reputation" class="comment-user">BumbleB2na</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment11269044_6483214"><span title="2012-01-24 18:54:33Z" class="relativetime-clean">Jan 24 '12 at 18:54</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-12877705" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">2</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Do not forget to select "Contact all update sites during install to find required software"</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/565798/ericlarch" title="2373 reputation" class="comment-user">EricLarch</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment12877705_6483214"><span title="2012-04-08 10:45:11Z" class="relativetime-clean">Apr 8 '12 at 10:45</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-18636560" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">worked for me in linux. thanks very much.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/893413/bastiat" title="119 reputation" class="comment-user">Bastiat</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment18636560_6483214"><span title="2012-11-28 00:07:59Z" class="relativetime-clean">Nov 28 '12 at 0:07</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-6483214" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link " title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick="">show <b>1</b> more comment</a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+<script>
+                var ados = ados || {};ados.run = ados.run || [];
+                ados.run.push(function() { ados_add_placement(22,8277,"adzerk1782932069",4).setZone(44) ; });                    
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk1782932069">
+            </div>
+  
+<a name="6483546"></a>
+<div id="answer-6483546" class="answer" data-answerid="6483546" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="6483546">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">44</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I had the same problem. This helped for me:</p>
+
+<ol>
+<li>Go to Help-&gt;Install Software</li>
+<li>Click on "Available Software Sites"</li>
+<li>Click on Add:
+  Name: "Helios"
+  Location: "http://download.eclipse.org/releases/helios"</li>
+<li>Try to install Android Development Tools </li>
+</ol>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/6483546" title="short permalink to this answer" class="short-link" id="link-post-6483546">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/6483546/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-06-26 11:09:45Z" class="relativetime">Jun 26 '11 at 11:09</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/815315/jazz"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/242571cfcbbad33386c2805d1d6febd6" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/815315/jazz">Jazz</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">449</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6483546" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="1" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-7660424" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Thanks. That seemed to fix it for me. I guess it just needed to know of the location of the Helios repository for dependencies. Not knowing the inner workings I cannot guess more. Alas this does not feel like a very 'clean' solution but it has got me up and running. (Eclipse Classic 3.7 Win32 build running on Win 7 Pro x64).</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/392847/quintin-willison" title="271 reputation" class="comment-user">Quintin Willison</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment7660424_6483546"><span title="2011-06-28 17:14:16Z" class="relativetime-clean">Jun 28 '11 at 17:14</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-8263172" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">same here, I had no eclipse indigo repo and used your solution and it works with android adt r12, eclipse 3.7, amd 64 bit server jvm. Thx</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/693752/snicolas" title="19709 reputation" class="comment-user">Snicolas</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment8263172_6483546"><span title="2011-08-03 22:13:08Z" class="relativetime-clean">Aug 3 '11 at 22:13</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-8263257" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Update : It works much fast than eclipse 3.6 for me, with settings for 3.6 from this thread <a href="http://stackoverflow.com/questions/142357/what-are-the-best-jvm-settings-for-eclipse/3275659#3275659" title="what are the best jvm settings for eclipse">stackoverflow.com/questions/142357/…</a></span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/693752/snicolas" title="19709 reputation" class="comment-user">Snicolas</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment8263257_6483546"><span title="2011-08-03 22:19:41Z" class="relativetime-clean">Aug 3 '11 at 22:19</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-10511920" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">This does not work on 3.7. It just says "Duplicate location". Same with ..releases/indigo. And if you update anyway you get messages about conflicting dependencies.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/265521/timmmm" title="10106 reputation" class="comment-user">Timmmm</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment10511920_6483546"><span title="2011-12-13 19:06:14Z" class="relativetime-clean">Dec 13 '11 at 19:06</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-12199129" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Worked with the indigo repository: <a href="http://download.eclipse.org/releases/indigo/" rel="nofollow">download.eclipse.org/releases/indigo</a></span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/419305/vanja" title="620 reputation" class="comment-user">Vanja</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment12199129_6483546"><span title="2012-03-08 08:02:54Z" class="relativetime-clean">Mar 8 '12 at 8:02</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-6483546" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link " title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick="">show <b>1</b> more comment</a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="6785527"></a>
+<div id="answer-6785527" class="answer" data-answerid="6785527" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="6785527">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">17</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I got around the <code>org.eclipse.wst.xml.core 0.0.0</code> issue by taking the following steps:</p>
+
+<ul>
+<li>Go to help</li>
+<li>Install New Software: Add Name: Indigo Location: "<strong>http://download.eclipse.org/releases/indigo</strong>"</li>
+<li>Select '<strong>WST Server Adapters</strong>' under '<code>Web, XML, Java,...</code>" (last name in list)</li>
+<li>Accept licensing agreement</li>
+<li>Restart Eclipse</li>
+<li>Resume procedure to install <code>ADT</code></li>
+</ul>
+
+<p>It worked for me, hope it does for you too.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/6785527" title="short permalink to this answer" class="short-link" id="link-post-6785527">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/6785527/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/6785527/revisions" title="show all edits to this post">edited <span title="2011-07-22 07:45:07Z" class="relativetime">Jul 22 '11 at 7:45</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/670834/hussain"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/4b0d5d1d4cfae2ce2e6428cc631e37b3" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/670834/hussain">Hussain</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">3,382</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="17 silver badges"><span class="badge2"></span><span class="badgecount">17</span></span><span title="41 bronze badges"><span class="badge3"></span><span class="badgecount">41</span></span>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-07-22 04:02:35Z" class="relativetime">Jul 22 '11 at 4:02</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/857241/sunil-m"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/67be563f3ec166c3824544cc10298be7" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/857241/sunil-m">Sunil M</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">171</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6785527" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-10697053" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I can confirm that this worked for me too, using Eclipse Classic Indigo.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/384005/carlos-p" title="1625 reputation" class="comment-user">Carlos P</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment10697053_6785527"><span title="2011-12-23 15:08:47Z" class="relativetime-clean">Dec 23 '11 at 15:08</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-11709979" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">In my experience, this works, but, simply as <a href="http://download.eclipse.org/releases/indigo" rel="nofollow">download.eclipse.org/releases/indigo</a> was added to the software repos. (See Alex's answer)</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/5302/johnc" title="12170 reputation" class="comment-user">johnc</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment11709979_6785527"><span title="2012-02-15 00:22:37Z" class="relativetime-clean">Feb 15 '12 at 0:22</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-12580271" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">u are right! the solution:)</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/514316/kit-ho" title="4476 reputation" class="comment-user">Kit Ho</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment12580271_6785527"><span title="2012-03-26 03:33:02Z" class="relativetime-clean">Mar 26 '12 at 3:33</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-15476214" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Worked for me (Linux Indigo 64 bits). Thank you!</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/603270/shkschneider" title="2543 reputation" class="comment-user">shkschneider</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment15476214_6785527"><span title="2012-07-26 17:56:20Z" class="relativetime-clean">Jul 26 '12 at 17:56</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-6785527" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="7631078"></a>
+<div id="answer-7631078" class="answer" data-answerid="7631078" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="7631078">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">11</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I had the same issue.  The other solutions here didn't work for me because I couldn't even see the Indigo / Helios update repos.  The problem was that Eclipse was in Program Files, but I wasn't running it as an administrator.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/7631078" title="short permalink to this answer" class="short-link" id="link-post-7631078">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/7631078/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-10-03 04:38:45Z" class="relativetime">Oct 3 '11 at 4:38</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/418107/sam-king"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/78124e3c2b7b7a14a21c4c4eb587312b" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/418107/sam-king">Sam King</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">620</span><span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-7631078" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-10928381" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Same issue here on Windows 7. Moved Eclipse out of Program Files and problem went away. Alternatively, you could always run Eclipse as Administrator as you appear to have done.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/294500/dazweeja" title="86 reputation" class="comment-user">dazweeja</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment10928381_7631078"><span title="2012-01-07 05:18:45Z" class="relativetime-clean">Jan 7 '12 at 5:18</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-7631078" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="6708390"></a>
+<div id="answer-6708390" class="answer" data-answerid="6708390" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="6708390">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">10</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>So I got indigo, and then :
+    Go to Help-&gt;Install New Software
+    Click on Add: Name: "Indigo" Location: "http://download.eclipse.org/releases/indigo"
+    Try to install Android Development Tools (as you will see, only 1 option out of 4 will appear - this is normal for Indigo)</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/6708390" title="short permalink to this answer" class="short-link" id="link-post-6708390">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/6708390/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-07-15 14:17:21Z" class="relativetime">Jul 15 '11 at 14:17</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/846616/alex"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/5b36fec8ff0e08ca798169b22e700f9b" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/846616/alex">Alex</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">101</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6708390" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-10474409" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Thanks. Strangely, on my Ubuntu 11.10 , with the default Indigo install, this repository wasn't available.  I had to add it by hand. Wierd.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/118228/djangofan" title="6268 reputation" class="comment-user">djangofan</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment10474409_6708390"><span title="2011-12-12 01:49:06Z" class="relativetime-clean">Dec 12 '11 at 1:49</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-6708390" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="7087533"></a>
+<div id="answer-7087533" class="answer" data-answerid="7087533" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="7087533">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">6</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Ensure you have the option "Contact all update sites during install to find required software". This option is located in the lower left corner on the first screen after choosing Help/Add New Software. This is unchecked by default. This WILL FIX the issue if it was unchecked. </p>
+
+<p>The plugin will install in 3.7 32bit and 64bit.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/7087533" title="short permalink to this answer" class="short-link" id="link-post-7087533">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/7087533/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-08-17 03:07:18Z" class="relativetime">Aug 17 '11 at 3:07</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/879803/gerbilwockey"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/1b873a9754bbacbc5b6a8cd0747ba795" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/879803/gerbilwockey">GerbilWockey</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">76</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-7087533" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-7087533" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="9321501"></a>
+<div id="answer-9321501" class="answer" data-answerid="9321501" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="9321501">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">5</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>The Google Plugin for Eclipse depends on other specific Eclipse components, such as WST. Your installation of Eclipse may not yet include all of them, but they can be easily installed by following these instructions. Eclipse 3.7 (Indigo)</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="pln"> </span><span class="typ">Select</span><span class="pln"> </span><span class="typ">Help</span><span class="pln"> </span><span class="pun">&gt;</span><span class="pln"> </span><span class="typ">Install</span><span class="pln"> </span><span class="typ">New</span><span class="pln"> </span><span class="typ">Software</span><span class="pun">...</span><span class="pln">
+
+</span><span class="typ">Click</span><span class="pln"> the link </span><span class="kwd">for</span><span class="pln"> </span><span class="typ">Available</span><span class="pln"> </span><span class="typ">Software</span><span class="pln"> </span><span class="typ">Sites</span><span class="pun">.</span><span class="pln">
+</span><span class="typ">Ensure</span><span class="pln"> there </span><span class="kwd">is</span><span class="pln"> an update site named </span><span class="typ">Indigo</span><span class="pun">.</span><span class="pln"> 
+
+</span><span class="typ">If</span><span class="pln"> </span><span class="kwd">this</span><span class="pln"> </span><span class="kwd">is</span><span class="pln"> </span><span class="kwd">not</span><span class="pln"> present</span><span class="pun">,</span><span class="pln"> click </span><span class="typ">Add</span><span class="pun">...</span><span class="pln"> </span><span class="kwd">and</span><span class="pln"> 
+enter http</span><span class="pun">:</span><span class="com">//download.eclipse.org/releases/indigo for the Location.</span><span class="pln">
+
+</span><span class="typ">Now</span><span class="pln"> go through the installation steps</span><span class="pun">;</span><span class="pln"> </span><span class="typ">Eclipse</span><span class="pln"> should download </span><span class="kwd">and</span><span class="pln"> install 
+the plugin</span><span class="str">'s dependencies.</span></code></pre>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/9321501" title="short permalink to this answer" class="short-link" id="link-post-9321501">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/9321501/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-02-17 01:00:18Z" class="relativetime">Feb 17 '12 at 1:00</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/455654/aalkhodiry"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/32NwG.jpg" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/455654/aalkhodiry">Aalkhodiry</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">531</span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-9321501" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-13413466" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">This worked for me - By default eclipse Indigo had this checked but it also had a few other software sites checked too. I unchecked all and only checked the indigo site and the android site and it installed on my 64 bit install fine.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/117859/mattl" title="708 reputation" class="comment-user">Mattl</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment13413466_9321501"><span title="2012-05-01 15:24:15Z" class="relativetime-clean">May 1 '12 at 15:24</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-9321501" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="6484847"></a>
+<div id="answer-6484847" class="answer" data-answerid="6484847" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="6484847">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">3</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I've also had this problem. I solved it by going to:  </p>
+
+<p>Clicking -&gt; available software sites<br>
+  Select "Helios" and click Reload.<br>
+  Select "ADT Plugin" and click Reload.<br>
+Then went back, tried again and it worked.</p>
+
+<p>If you still can't get it working there are directions for doing it manually here:<br>
+<a href="http://developer.android.com/sdk/eclipse-adt.html#installing" rel="nofollow">http://developer.android.com/sdk/eclipse-adt.html#installing</a></p>
+
+<p>(also: I'm using 3.7 64x, it's working fine, not having any issues.)</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/6484847" title="short permalink to this answer" class="short-link" id="link-post-6484847">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/6484847/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/6484847/revisions" title="show all edits to this post">edited <span title="2011-06-26 15:54:30Z" class="relativetime">Jun 26 '11 at 15:54</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        <br>
+        
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-06-26 15:29:26Z" class="relativetime">Jun 26 '11 at 15:29</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/535087/danieljw"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/58901f6faf521383acb99efe99c93b07" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/535087/danieljw">DanielJW</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">93</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6484847" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-6484847" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="6486828"></a>
+<div id="answer-6486828" class="answer" data-answerid="6486828" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="6486828">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">3</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>I tried installing and got the same error (using the new "marketplace").  I tried the typical Help-&gt;install new software...  then where it says "Work with:"  I entered:</p>
+
+<p><a href="http://dl-ssl.google.com/android/eclipse/" rel="nofollow">http://dl-ssl.google.com/android/eclipse/</a>   </p>
+
+<p>followed all the prompts and everything seems to be working fine now.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/6486828" title="short permalink to this answer" class="short-link" id="link-post-6486828">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/6486828/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-06-26 21:22:42Z" class="relativetime">Jun 26 '11 at 21:22</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/337551/tad604"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/50402413d98311d67241869241c89ce7" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/337551/tad604">tad604</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">180</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-6486828" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-6486828" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="8913570"></a>
+<div id="answer-8913570" class="answer" data-answerid="8913570" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="8913570">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">3</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Execute eclipse with root level</p>
+
+<p><strong>$sudo /opt/eclipse/eclipse</strong></p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/8913570" title="short permalink to this answer" class="short-link" id="link-post-8913570">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/8913570/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-01-18 16:20:45Z" class="relativetime">Jan 18 '12 at 16:20</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1097295/sensei"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/a9f06a9ad2f450262c7b11f2228176aa" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1097295/sensei">Sensei</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">56</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-8913570" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-8913570" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="8355721"></a>
+<div id="answer-8355721" class="answer" data-answerid="8355721" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="8355721">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">1</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Go to  Help-&gt;Install Software.
+Add the following link  <a href="http://dl-ssl.google.com/android/eclipse/" rel="nofollow">http://dl-ssl.google.com/android/eclipse/</a> .</p>
+
+<p>Then press next and accept the license, it installs some of the software required then you will be gud to go.</p>
+
+<p>After the eclipse restarts it prompts you to download the android sdk required or give the path of android sdk if already it is downloaded.</p>
+
+<p>This works all the time what ever may be the version.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/8355721" title="short permalink to this answer" class="short-link" id="link-post-8355721">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/8355721/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-12-02 11:34:21Z" class="relativetime">Dec 2 '11 at 11:34</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1063475/tejasvi"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/0f89e783f4d695c527292c53c4ba92b1" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1063475/tejasvi">tejasvi</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">63</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-8355721" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-8355721" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="9386716"></a>
+<div id="answer-9386716" class="answer" data-answerid="9386716" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="9386716">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>None of the existing answers worked for me. Having all the correct update sites in "available sites" was not enough to tell Eclipse how to find its dependencies.</p>
+
+<p>Using Fedora 14 and Eclipse Indigo 3.7.1, I had to follow these steps to make the installation working:</p>
+
+<ol>
+<li>Check and install "Linux Tools" from <a href="http://download.eclipse.org/releases/indigo" rel="nofollow">http://download.eclipse.org/releases/indigo</a></li>
+<li>Check and install "Linux Tools" from <a href="http://download.eclipse.org/releases/indigo/201109230900" rel="nofollow">http://download.eclipse.org/releases/indigo/201109230900</a></li>
+</ol>
+
+<p>After restarting Eclipse, I was able to finaly install the Android SDK.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/9386716" title="short permalink to this answer" class="short-link" id="link-post-9386716">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/9386716/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2012-02-21 23:03:35Z" class="relativetime">Feb 21 '12 at 23:03</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/565798/ericlarch"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/80c5e9132d1e0ed522f339225e87f31d" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/565798/ericlarch">EricLarch</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,373</span><span title="13 silver badges"><span class="badge2"></span><span class="badgecount">13</span></span><span title="31 bronze badges"><span class="badge3"></span><span class="badgecount">31</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-9386716" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-9386716" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="9489231"></a>
+<div id="answer-9489231" class="answer" data-answerid="9489231" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="9489231">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Thanks to all for the posts but unfortunatley none of the above solved my problem. Eventually what got it all working for me was to download eclipse indigo 3.7.2 and (this is very important) EXTRACT IT DIRECTLY INTO MY PROGRAMS FOLDER. Before I would extract it to my desktop and copy into the programs folder (C:\Program Files) but I would jus get an error message saying "The Eclipse executable launcher was unable to locate its companion shared library" when trying to run eclipse.</p>
+
+<p>After extracting eclipse directly to my programs folder I ran it and added the ADT plugin the way reccomended in on <a href="http://developer.android.com/sdk/eclipse-adt.html#installing" rel="nofollow">the android site</a> and so far all is working well :)</p>
+
+<p>I'm on a windows 7 x64 machine and had jre-7u2-windows-x64.exe, jdk-7u2-windows-x64.exe and <a href="http://developer.android.com/sdk/index.html" rel="nofollow">installer_r16-windows.exe</a> installed before extracting eclipse.</p>
+
+<p>I hope this can help someone else too :)</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/9489231" title="short permalink to this answer" class="short-link" id="link-post-9489231">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/9489231/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-02-28 20:29:53Z" class="relativetime">Feb 28 '12 at 20:29</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/779135/jared-glass"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/g7Ftn.png" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/779135/jared-glass">Jared Glass</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">649</span><span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span><span title="27 bronze badges"><span class="badge3"></span><span class="badgecount">27</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-9489231" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-9489231" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="11989267"></a>
+<div id="answer-11989267" class="answer" data-answerid="11989267" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="11989267">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Still pretty bewildering.  It seems some combination of the above suggestions worked in Eclipse 3.7.2.</p>
+
+<p>First, I had to move to a network that dl-ssl.google.com hasn't blocked (this is an ongoing problem with the Google server)
+(Easy with a laptop, less so with my tower.)</p>
+
+<p><strong>The Eclipse folks should look at this problem.</strong>
+The user sees an error, something about a missing package "org.eclipse.wst.sse.core', say.
+There are 50 or so plugin repositories listed.
+<em>which</em> of these is the one that has this package???
+<em>None</em> has a name containing a 'wst' or 'sse'.</p>
+
+<p><strong>This is very poor.</strong>  There needs to be a way for the user to associate the error message 
+with a repository solution.</p>
+
+<p>Anyway: after some hunt-and-peck I ended up selecting
+(and reloading each repository, and with <em>Contact all update sites during install to find required software</em> checked)</p>
+
+<ul>
+<li><a href="https://dl-ssl.google.com/android/eclipse/" rel="nofollow">https://dl-ssl.google.com/android/eclipse/</a>  (ADT Plugin, which I
+added according to the Google instructions)  </li>
+<li><a href="http://download.eclipse.org/releases/helios" rel="nofollow">http://download.eclipse.org/releases/helios</a> (Helios Milestone
+repository) </li>
+<li><a href="http://download.eclipse.org/eclipse/updates/3.6" rel="nofollow">http://download.eclipse.org/eclipse/updates/3.6</a>
+(Eclipse Project Test Site) </li>
+</ul>
+
+<p>One of these provided the packages needed for the Android plugin . Best guess: Helios.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/11989267" title="short permalink to this answer" class="short-link" id="link-post-11989267">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/11989267/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-08-16 14:23:38Z" class="relativetime">Aug 16 '12 at 14:23</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1554381/steve-white"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/14b62b727353d5852dece113bb6a3115" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1554381/steve-white">Steve White</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">21</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-11989267" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-11989267" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="13483074"></a>
+<div id="answer-13483074" class="answer" data-answerid="13483074" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="13483074">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>The best answer (by Sathya) is also applicable in Eclipse Juno.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/13483074" title="short permalink to this answer" class="short-link" id="link-post-13483074">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/13483074/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-11-20 22:10:14Z" class="relativetime">Nov 20 '12 at 22:10</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1737830/abrequevoy"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/lyA2a.jpg" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1737830/abrequevoy">AbreQueVoy</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">136</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-13483074" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-13483074" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="10246367"></a>
+<div id="answer-10246367" class="answer" data-answerid="10246367" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="10246367">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>This seems to be fixed in Indigo Eclipse now, there's a video showing someone <a href="http://www.idimmu.net/2013/03/23/install-android-eclipse/" rel="nofollow">install android eclipse</a> on youtube?</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/10246367" title="short permalink to this answer" class="short-link" id="link-post-10246367">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/10246367/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/10246367/revisions" title="show all edits to this post">edited <span title="2013-03-23 20:15:31Z" class="relativetime">Mar 23 '13 at 20:15</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/-1/community"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/a007be5a61f6aa8f3e85ae2fc18dd66e" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/-1/community">Community</a><span class="mod-flair" title="moderator">♦</span><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-04-20 12:35:54Z" class="relativetime">Apr 20 '12 at 12:35</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/181737/idimmu"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/aa94de38dacd211a23557cb39dc503ad" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/181737/idimmu">idimmu</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">851</span><span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span><span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-10246367" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-10246367" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="15652957"></a>
+<div id="answer-15652957" class="answer" data-answerid="15652957" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="15652957">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>By the way, Eclipse + ADT (ADT Bundle) is now provided as a single package,</p>
+
+<p><a href="http://developer.android.com/sdk/index.html" rel="nofollow">Developer.Android:ADT Bundle</a></p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/15652957" title="short permalink to this answer" class="short-link" id="link-post-15652957">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/15652957/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2013-03-27 06:20:15Z" class="relativetime">Mar 27 '13 at 6:20</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2128327/khaled-a-khunaifer"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/fdb32ecba89326d1528dbf8673e68b20" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2128327/khaled-a-khunaifer">Khaled A Khunaifer</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">2,340</span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="21 bronze badges"><span class="badge3"></span><span class="badgecount">21</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-15652957" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-15652957" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="23724614"></a>
+<div id="answer-23724614" class="answer" data-answerid="23724614" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="23724614">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">0</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<pre class="default prettyprint prettyprinted"><code><span class="typ">Cannot</span><span class="pln"> complete the install because one </span><span class="kwd">or</span><span class="pln"> more required items
+could </span><span class="kwd">not</span><span class="pln"> be found</span><span class="pun">.</span><span class="pln">  </span><span class="typ">Software</span><span class="pln"> currently installed</span><span class="pun">:</span><span class="pln"> </span><span class="typ">Shared</span><span class="pln"> profile 
+</span><span class="lit">1.0</span><span class="pun">.</span><span class="lit">0.1308118821836</span><span class="pln"> </span><span class="pun">(</span><span class="typ">SharedProfile_epp</span><span class="pun">.</span><span class="kwd">package</span><span class="pun">.</span><span class="pln">java 
+</span><span class="lit">1.0</span><span class="pun">.</span><span class="lit">0.1308118821836</span><span class="pun">)</span><span class="pln"> </span><span class="typ">Missing</span><span class="pln"> requirement</span><span class="pun">:</span><span class="pln"> </span><span class="typ">Shared</span><span class="pln"> profile 
+</span><span class="lit">1.0</span><span class="pun">.</span><span class="lit">0.1308118821836</span><span class="pln"> </span><span class="pun">(</span><span class="typ">SharedProfile_epp</span><span class="pun">.</span><span class="kwd">package</span><span class="pun">.</span><span class="pln">java 
+</span><span class="lit">1.0</span><span class="pun">.</span><span class="lit">0.1308118821836</span><span class="pun">)</span><span class="pln"> requires </span><span class="str">'org.maven.ide.eclipse</span></code></pre>
+
+<p>Run As Administrator !!!</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/23724614" title="short permalink to this answer" class="short-link" id="link-post-23724614">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/23724614/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2014-05-18 17:06:41Z" class="relativetime">May 18 at 17:06</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2728926/ryoza-morugakiro"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/sroPJ.jpg" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2728926/ryoza-morugakiro">Ryoza Morugakiro</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-23724614" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-23724614" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="8235515"></a>
+<div id="answer-8235515" class="answer" data-answerid="8235515" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+    <input type="hidden" name="_id_" value="8235515">
+    <a class="vote-up-off" title="This answer is useful">up vote</a>
+    <span itemprop="upvoteCount" class="vote-count-post ">-1</span>
+    <a class="vote-down-off" title="This answer is not useful">down vote</a>
+    
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Eclipse Classic or Galileo is the two you can use.  The other Eclipse IDE are not meant to program or interpret JAVA in the same way.  Download either 64x or 32x will work on Classic or Galileo on a PC.  Just make sure you PC can handle which version of Eclipse you download.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/8235515" title="short permalink to this answer" class="short-link" id="link-post-8235515">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/8235515/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2011-11-22 23:46:00Z" class="relativetime">Nov 22 '11 at 23:46</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/613496/mr-j05hua"><div class="gravatar-wrapper-32"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/42e3208c5f4cd453853348bdca06d217" alt=""></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/613496/mr-j05hua">mr.j05hua</a><br>
+        <span class="reputation-score" title="reputation score " dir="ltr">142</span><span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span><span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-8235515" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-10138557" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Not true, you can use helio and indigo on 32bit and 64bit.</span>
+                –&nbsp;
+                    <a href="http://stackoverflow.com/users/311001/hades" title="1967 reputation" class="comment-user owner">Hades</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#comment10138557_8235515"><span title="2011-11-23 12:08:33Z" class="relativetime-clean">Nov 23 '11 at 12:08</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+            <div id="comments-link-8235515" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span><a class="js-show-link comments-link dno" title="expand to show all comments on this post, or add one of your own" href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin#" onclick=""></a>
+            </div>
+    </td>
+</tr>    </tbody></table>
+</div>
+				<div class="question-status">
+        <h2>                    <b>protected</b> by <a href="http://stackoverflow.com/users/-1/community">Community</a><span class="mod-flair" title="moderator">♦</span> <span dir="ltr"><span title="2011-10-06 10:29:58Z" class="relativetime">Oct 6 '11 at 10:29</span></span>
+</h2>
+        <p>
+Thank you for your interest in this question. 
+Because it has attracted low-quality answers, posting an answer now requires 10 <a href="http://stackoverflow.com/help/whats-reputation">reputation</a> on this site.
+<br><br>
+Would you like to answer one of these <a href="http://stackoverflow.com/unanswered?fromProtectedNotice=true">unanswered questions</a> instead?
+</p>
+    </div>
+
+
+						<h2 class="bottom-notice" data-loc="1">
+Not the answer you're looking for?							Browse other questions tagged <a href="http://stackoverflow.com/questions/tagged/android" class="post-tag" title="show questions tagged &#39;android&#39;" rel="tag"><img src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="http://stackoverflow.com/questions/tagged/eclipse" class="post-tag" title="show questions tagged &#39;eclipse&#39;" rel="tag">eclipse</a> <a href="http://stackoverflow.com/questions/tagged/adt" class="post-tag" title="show questions tagged &#39;adt&#39;" rel="tag">adt</a>  or <a href="http://stackoverflow.com/questions/ask">ask your own question</a>.						</h2>
+			</div>
+		</div>
+				<div id="sidebar" class="show-votes">
+						    <div class="module question-stats">
+			        <table id="qinfo">
+			            <tbody><tr>
+			                <td>
+			                    <p class="label-key">asked</p>
+			                </td>
+			                <td style="padding-left: 10px">
+			                    <p class="label-key" title="2011-06-26 05:11:30Z"><b>3 years ago</b></p>
+			                </td>
+			            </tr>
+			            <tr>
+			                <td>
+			                    <p class="label-key">viewed</p>
+			                </td>
+
+			                <td style="padding-left: 10px">
+			                    <p class="label-key">
+			                        <b>98805 times</b>
+			                    </p>
+			                </td>
+			            </tr>
+			                <tr>
+			                    <td>
+			                        <p class="label-key">active</p>
+			                    </td>
+			                    <td style="padding-left: 10px">
+			                        <p class="label-key"><b><a href="http://stackoverflow.com/questions/6482268/eclipse-indigo-cannot-install-android-adt-plugin?lastactivity" class="lastactivity-link" title="2014-05-18 17:06:41Z">2 months ago</a></b></p>
+			                    </td>
+			                </tr>
+			        </tbody></table>
+			    </div>
+						
+			<script>
+                var ados = ados || {};ados.run = ados.run || [];
+                ados.run.push(function() { ados_add_placement(22,8277,"adzerk812437556",[17,2221]).setZone(45) ; });                    
+            </script>
+            <div class="everyonelovesstackoverflow" id="adzerk812437556">
+            </div>  
+        <div id="hireme">
+            <script>
+window.careers_adurl="//careers.stackoverflow.com/gethired/js",window.careers_cssurl="//cdn-careers.sstatic.net/careers/gethired/sidebar.min.css?v=f0face41ac92",window.careers_leaderboardcssurl="{leaderboardcssurl}",window.careers_companycssurl="//cdn-careers.sstatic.net/careers/gethired/company",window.careers_adselector="div#hireme",StackExchange.ready(function(){$.ajax({url:"//cdn-careers.sstatic.net/careers/gethired/loader.min.js?v=5373c059242a",dataType:"script",cache:!0})});            </script>
+            
+        </div>
+			  
+    
+            <div class="module sidebar-linked">
+	<h4 id="h-linked">Linked</h4>
+	<div class="linked" data-tracker="lq=1">
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/7668139?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/7668139/cant-install-android-adt-using-eclipse-indigo?lq=1" class="question-hyperlink">Can't install Android ADT using Eclipse 'Indigo'</a>
+</div><div class="spacer">
+	<a href="http://stackoverflow.com/q/142357?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted large">318</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/142357/what-are-the-best-jvm-settings-for-eclipse?lq=1" class="question-hyperlink">What are the best JVM settings for Eclipse?</a>
+</div><div class="spacer">
+	<a href="http://stackoverflow.com/q/10310028?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">13</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/10310028/why-doesnt-android-appear-in-eclipses-preferences?lq=1" class="question-hyperlink">Why doesn't Android appear in Eclipses' preferences?</a>
+</div><div class="spacer">
+	<a href="http://stackoverflow.com/q/8812329?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">10</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/8812329/android-sdk-issues-ubuntu-10-04lts?lq=1" class="question-hyperlink">Android SDK Issues Ubuntu 10.04lts</a>
+</div><div class="spacer">
+	<a href="http://stackoverflow.com/q/8038971?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">12</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/8038971/why-is-my-updated-eclipse-android-setup-not-building-my-apk-anymore?lq=1" class="question-hyperlink">Why is my updated Eclipse / Android setup not building my APK anymore?</a>
+</div><div class="spacer">
+	<a href="http://stackoverflow.com/q/12545857?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">2</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/12545857/ubuntu-12-10-eclipse-3-8-setup-for-android-questions?lq=1" class="question-hyperlink">Ubuntu 12.10 + Eclipse 3.8 setup for Android questions</a>
+</div><div class="spacer">
+	<a href="http://stackoverflow.com/q/7510132?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">1</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/7510132/who-is-the-better-for-android-development-eclipse-helios-or-eclipse-galileo?lq=1" class="question-hyperlink">Who is the better for Android development ? Eclipse Helios or Eclipse Galileo?</a>
+</div><div class="spacer">
+	<a href="http://stackoverflow.com/q/8570919?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">1</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/8570919/how-to-resolve-the-issue-of-android-resources?lq=1" class="question-hyperlink">How to resolve the issue of android resources</a>
+</div><div class="spacer">
+	<a href="http://stackoverflow.com/q/9681977?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/9681977/issue-in-installing-adt-plugin?lq=1" class="question-hyperlink">Issue in installing ADT Plugin</a>
+</div>			</div>
+</div>
+
+				<div class="module sidebar-related">
+					<h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/2194808?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted extra-large">1251
+    </div>
+</a><a href="http://stackoverflow.com/questions/2194808/debug-certificate-expired-error-in-eclipse-android-plugins?rq=1" class="question-hyperlink">“Debug certificate expired” error in Eclipse Android plugins</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/3809866?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted default">5
+    </div>
+</a><a href="http://stackoverflow.com/questions/3809866/how-do-i-set-up-android-adt-plugin-for-eclipse?rq=1" class="question-hyperlink">How do I set up Android (ADT-Plugin) for Eclipse?</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/3935956?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted default">21
+    </div>
+</a><a href="http://stackoverflow.com/questions/3935956/how-to-install-the-android-adt-plugin-in-eclipse?rq=1" class="question-hyperlink">How to install the Android ADT Plugin in Eclipse?</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/6443095?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">11
+    </div>
+</a><a href="http://stackoverflow.com/questions/6443095/conflicting-dependency-when-trying-to-install-adt-plugin-into-eclipse?rq=1" class="question-hyperlink">conflicting dependency when trying to install ADT plugin into eclipse</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/6555374?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">1
+    </div>
+</a><a href="http://stackoverflow.com/questions/6555374/eclipse-3-7-classic-nightmare-adt-installation?rq=1" class="question-hyperlink">Eclipse 3.7 Classic Nightmare - ADT Installation</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/6596418?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted default">0
+    </div>
+</a><a href="http://stackoverflow.com/questions/6596418/problem-while-installing-adt-on-eclipse-galileo-ubuntu?rq=1" class="question-hyperlink">Problem while installing ADT on eclipse galileo (ubuntu)</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/7410305?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes default">32
+    </div>
+</a><a href="http://stackoverflow.com/questions/7410305/installing-the-adt-plugin-for-eclipse?rq=1" class="question-hyperlink">Installing the ADT Plugin for Eclipse</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/8027876?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted default">32
+    </div>
+</a><a href="http://stackoverflow.com/questions/8027876/installing-adt-plugin-in-eclipse-for-android-development?rq=1" class="question-hyperlink">Installing ADT plugin in Eclipse for Android development</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/10004185?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted default">0
+    </div>
+</a><a href="http://stackoverflow.com/questions/10004185/trouble-installing-archive-adt-1-7-0-eclipse-plugin-on-eclipse-classic-3-7-2-and?rq=1" class="question-hyperlink">Trouble installing archive ADT 1.7.0 Eclipse Plugin on Eclipse Classic 3.7.2 and Windows 7-64Bit</a>
+</div>
+<div class="spacer js-gps-track">
+<a href="http://stackoverflow.com/q/24437564?rq=1" title="Vote score (upvotes - downvotes)">
+    <div class="answer-votes answered-accepted large">331
+    </div>
+</a><a href="http://stackoverflow.com/questions/24437564/update-eclipse-with-android-development-tools-v-23?rq=1" class="question-hyperlink">Update Eclipse with Android development tools v. 23</a>
+</div>
+
+                    </div>
+				</div>
+            
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li>
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/57109/ragged-diamonds" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Ragged Diamonds
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-gaming" title="Arqade"></div><a href="http://gaming.stackexchange.com/questions/179883/how-do-you-make-a-flying-squid" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:41 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How do you make a flying squid?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/195928/equations-with-text-and-math-interpersed" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Equations with text and math interpersed
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-crypto" title="Cryptography Stack Exchange"></div><a href="http://crypto.stackexchange.com/questions/18591/entropy-of-two-concatenated-random-values" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:281 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Entropy of two concatenated random values
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-german" title="German Language Stack Exchange"></div><a href="http://german.stackexchange.com/questions/15285/does-the-noun-k%c3%a4rtchen-have-a-plural-form" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Does the noun "Kärtchen" have a plural form?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-cooking" title="Seasoned Advice"></div><a href="http://cooking.stackexchange.com/questions/46296/coca-colas-secret-recipe" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:49 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Coca Cola's Secret Recipe
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/510134/how-to-increase-vm-hdd-and-ram-sizes" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to increase VM HDD and RAM sizes?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/35042/what-are-mini-bar-policies-for-one-night-stays-in-hotels" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What are mini-bar policies for one-night stays in hotels?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/149838/how-do-i-change-the-colour-of-text-matching-a-regex-in-vim" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How do I change the colour of text matching a regex in vim?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-physics" title="Physics Stack Exchange"></div><a href="http://physics.stackexchange.com/questions/130607/finding-the-cosmological-redshift-of-a-galaxy-in-the-expanding-universe" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Finding the cosmological redshift of a galaxy in the expanding Universe
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="http://mathoverflow.net/questions/178139/examples-of-unexpected-mathematical-images" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Examples of unexpected mathematical images
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/45851/does-roleplaying-inherently-put-you-at-a-disadvantage" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Does roleplaying inherently put you at a disadvantage?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/795644/what-is-the-difference-between-ftps-and-sftp" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What is the difference between ftps and sftp?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/149820/print-capital-words-in-first-column-of-file" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    print capital words in first column of file
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/149823/parenthesis-in-bash-expr-3-2-1" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Parenthesis in bash expr: 3 * (2 + 1)
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="http://security.stackexchange.com/questions/65122/can-installing-snort-make-me-vulnerable" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:162 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can installing Snort make me vulnerable?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="http://stackoverflow.com/questions/25253953/c-local-stack-arrays-versus-dynamic-allocation" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    C++ - Local stack arrays versus dynamic allocation
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-chess" title="Chess Stack Exchange"></div><a href="http://chess.stackexchange.com/questions/6048/is-there-an-easy-way-to-detect-draw-in-king-pawn-vs-king-endgame" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:435 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Is there an easy way to detect draw in King + Pawn vs King endgame?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/45745/why-is-burying-yourself-not-such-a-great-plan" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why is burying yourself not such a great plan?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/124817/why-are-there-only-3-wires-on-this-power-line" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why are there only 3 wires on this power line?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><a href="http://diy.stackexchange.com/questions/47414/patching-drywall-between-two-corners" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Patching drywall between two corners
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-astronomy" title="Astronomy Stack Exchange"></div><a href="http://astronomy.stackexchange.com/questions/6100/do-we-expect-life-to-develop-only-in-certain-regions-of-the-galaxy" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:514 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Do we expect life to develop only in certain regions of the galaxy?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/65373/who-what-is-the-dying-infant-like-creature-in-the-limbo-kings-cross-around-the" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Who/what is the dying infant-like creature in the limbo King's Cross, around the end of Deathly Hallows?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/65415/why-do-the-teenage-mutant-ninja-turtles-wear-masks" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why do the Teenage Mutant Ninja Turtles wear masks?
+                </a>
+
+            </li>
+    </ul>
+
+        
+</div>
+		</div>
+	
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/question/6482268" title="feed of this question and its answers">
+            <span class="feed-icon"></span>question feed
+        </a>
+    </div>
+</div>	<script>
+StackExchange.ready(function(){$.get('/posts/6482268/ivc/6d27');});
+</script>
+<noscript>
+    &lt;div&gt;&lt;img src="/posts/6482268/ivc/6d27" class="dno" alt="" width="0" height="0"&gt;&lt;/div&gt;
+</noscript><div style="display:none" id="prettify-lang">default</div></div>
+
+
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="http://stackoverflow.com/tour">tour</a>
+                    <a href="http://stackoverflow.com/help">help</a>
+                        <a href="http://stackoverflow.com/help/badges">badges</a>
+                    <a href="http://blog.stackoverflow.com/?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com/">chat</a>
+                    <a href="http://data.stackexchange.com/">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick="StackExchange.switchMobile(&quot;on&quot;)">mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com/">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tbody><tr>
+            <th colspan="3">
+                Technology
+            </th>
+            <th>
+                Life / Arts
+            </th>
+            <th>
+                Culture / Recreation
+            </th>
+            <th>
+                Science
+            </th>
+            <th>
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com/" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="professional system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems.">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="Information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (14)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (10)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</tbody></table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo © 2014 stack exchange inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2014.8.12.1765
+            </div>
+            
+        </div>
+    <iframe id="global-auth-frame" style="display:none" src="./Eclipse Indigo - Cannot install Android ADT Plugin - Stack Overflow_files/read.htm"></iframe></div>
+    <noscript>
+        &lt;div id="noscript-warning"&gt;Stack Overflow works best with JavaScript enabled&lt;img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"&gt;&lt;/div&gt;
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    ados.run.push(function () { ados_setKeywords('android,eclipse,adt');; ados_load(); });         
+</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1');        
+        
+        ga('set', 'dimension2', '|android|eclipse|adt|');         
+        ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>        
+    
+    
+</body></html>

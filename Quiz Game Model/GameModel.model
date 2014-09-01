@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<QuizGameMetamodel:QuizGame xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:QuizGameMetamodel="QuizGameMetamodel" xmi:id="_mCypYAv-EeSkcJGg3QGyyg" applicationName="Regions" typeface="Arista2.0.ttf" packageName="com.raduscrieciu.quizgame" androidProjectName="QuizGame" versionCode="1" versionName="1.1">
+<QuizGameMetamodel:QuizGame xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:QuizGameMetamodel="QuizGameMetamodel" xmi:id="_mCypYAv-EeSkcJGg3QGyyg" applicationName="Regions" typeface="Arista2.0.ttf" packageName="com.quizgame.regions" androidProjectName="Regions" versionCode="1" versionName="1.1">
   <levels xmi:id="_moYCsAv-EeSkcJGg3QGyyg" name="Level One">
     <questions xsi:type="QuizGameMetamodel:MapQuestion" xmi:id="_nywLIAv-EeSkcJGg3QGyyg" questionText="Which city in Yorkshire is known as the City of Steel?" x="88" y="22" mapImageFileName="map">
       <hints xmi:id="_4IhrYAzdEeSeT4bOVzKTMw" content="sheffield1.html"/>
